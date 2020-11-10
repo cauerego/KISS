@@ -40,6 +40,6 @@ This is clearly not as easy as it ought to be.
 You need to create a new loader, new provider, new pojo and new result. You also need to ensure `adapter.RecordAdapter.java` creates your own view type (see method `getViewTypeCount` and `getItemViewType`).
 
 ## Creating new Pull Request
-Explain your changes, comment your code and make sure the CI is able to compile your code.
+Explain your changes, comment your code and make sure [the CI](https://app.circleci.com/pipelines/github/Neamar/KISS) is able to compile your code.
 
 Sadly, there is no test suite yet :(
